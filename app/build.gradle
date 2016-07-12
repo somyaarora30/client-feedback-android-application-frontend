@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android
+        {
+            compileSdkVersion 23
+            buildToolsVersion '23.0.1'
+           useLibrary 'org.apache.http.legacy'
+
+            defaultConfig {
+                applicationId "com.example.somya.client_feedback_application"
+                minSdkVersion 17
+                targetSdkVersion 23
+                versionCode 1
+                versionName "1.0"
+            }
+            buildTypes {
+                release {
+                    minifyEnabled false
+                    proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                }
+            }
+
+        }
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.google.android.gms:play-services:7.8.0'
+    // compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    // ompile 'org.apache.httpcomponents:httpclient:4.5'
+    // compile files('libs/sqljdbc42.jar')
+    // compile files('libs/jtds-1.2.7.jar')
+    // compile files(‘libs/org.apache.http.legacy.jar’)
+    // compile files('libs/httpclient-4.5.2.jar')
+    // compile files('libs/jtds-1.3.1.jar')
+    //compile files('libs/mysql-connector-java-5.1.36.jar')
+    //compile files('libs/mysql-async_2.10-0.2.19.jar')
+}
+
+
+
+
+
+
+
+
+
+
+

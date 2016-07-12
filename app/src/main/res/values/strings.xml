@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Client_Feedback_Application</string>
+    <string name="MainActivity"><u>Main Activity</u></string>
+    <string name="login"><u>Login</u></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form">form</string>
+    <string name="eventdate">Date</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_section1">section1</string>
+    <string name="title_activity_section2">section2</string>
+    <string name="title_activity_section3">section3</string>
+    <string name="title_activity_section4">section4</string>
+    <string name="title_activity_section5">section5</string>
+    <string name="title_activity_welcome">welcome</string>
+    <string name="spinner_title" typeface="serif">Select Location</string>
+    <string name="spinner_title2" typeface="serif">Select</string>
+
+    <string name="Client_Form_Generation">Client Form Generation</string>
+    <string name="AddMore">Add More</string>
+    <string name="Delete">Delete</string>
+    <string-array name="location_array">
+        <item>Select location</item>
+        <item>Abu Dhabi</item>
+        <item>Amsterdam</item>
+        <item>Barcelona</item>
+        <item>Boeblingen</item>
+        <item>Brussels</item>
+        <item>Casablanca</item>
+        <item>Copenhagen</item>
+        <item>Ehningen</item>
+        <item>GISC Nice-Paris</item>
+        <item>India_Delhi</item>
+        <item>India_Mumbai</item>
+        <item>Israel</item>
+        <item>Istanbul</item>
+        <item>Johannesburg</item>
+        <item>Lagos</item>
+        <item>Lisboa</item>
+        <item>London</item>
+        <item>Madrid</item>
+        <item>Milano</item>
+        <item>Montpellier</item>
+        <item>Moscow</item>
+        <item>Nairobi</item>
+        <item>Paris</item>
+        <item>Rome</item>
+        <item>Stockholm</item>
+        <item>Wien</item>
+        <item>Zurich</item>
+    </string-array>
+
+    <string-array name="client_type_array">
+        <item>Client</item>
+        <item>Business Partner</item>
+        <item>Employee</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_feedback_form">feedback_form</string>
+    <string name="title_activity_feedback__form">Feedback_Form</string>
+    <string name="title_activity_slide_demo">slide_demo</string>
+    <string name="title_activity_thankyou">thankyou</string>
+    <string name="title_activity_client_basic_details">Client_basic_details</string>
+    <string name="title_activity_report">report</string>
+    <string name="title_activity_normaluser">normaluser</string>
+
+</resources>

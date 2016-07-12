@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/feedback_formt34">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#004080"
+        android:id="@+id/relativeLayout1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 of 9"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic 3: "
+            android:layout_alignParentLeft="true"
+            android:typeface="serif"
+            android:textSize="17dp"
+            android:textColor="#FF4D4D4D"
+            android:id="@+id/textView9" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:id="@+id/topicname3"
+            android:textSize="20dp"
+            android:textStyle="bold" android:layout_toEndOf="@+id/textView9" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingbar1"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="0.0"
+            android:layout_below="@+id/topicname1"
+            android:layout_marginTop="20dp"
+            style="@android:style/Widget.Holo.RatingBar"
+            android:layout_marginLeft="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textbox1"
+            android:layout_below="@id/ratingbar1"
+            android:layout_marginLeft="70dp"
+            android:text="Rate your experience here"
+            android:textSize="15dp"
+            android:textColor="#FF4D4D4D"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="113dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic 4: "
+            android:layout_alignParentLeft="true"
+            android:typeface="serif"
+            android:textColor="#FF4D4D4D"
+            android:textSize="17dp"
+            android:id="@+id/textView12" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:id="@+id/topicname4"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/textView12" />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingbar2"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="0.0"
+            android:layout_below="@+id/topicname4"
+            android:layout_marginTop="20dp"
+            style="@android:style/Widget.Holo.RatingBar"
+            android:layout_marginLeft="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textbox2"
+            android:layout_below="@id/ratingbar2"
+            android:layout_marginLeft="70dp"
+            android:text="Rate your experience here"
+            android:textSize="15dp"
+            android:textColor="#FF4D4D4D"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="> Slide"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:typeface="serif"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FF4D4D4D"
+            android:textSize="20dp"
+            android:id="@+id/Slide" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

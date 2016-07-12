@@ -1,0 +1,70 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/fragment_comments">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#004080"
+        android:id="@+id/relativeLayout1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 of 9"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please share with us any additional comments or thoughts about this program "
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:id="@+id/message3"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:id="@+id/comments"
+            android:layout_below="@id/message3"
+            android:hint="Give your comments here"
+            android:layout_marginTop="30dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:textSize="20dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Submit Form"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/submit"
+            android:typeface="serif"
+            android:background="#004080"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

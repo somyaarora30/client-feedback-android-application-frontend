@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1"
+    android:typeface="serif"
+    tools:context=".MainActivity"
+    style="@android:style/Animation.Translucent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#004080"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="CLIENT FEEDBACK"
+            android:shadowColor="#5c85d6"
+            android:shadowDx="-15"
+            android:shadowDy="-15"
+            android:shadowRadius="25"
+
+            android:layout_alignParentStart="true"
+            android:typeface="serif"
+            android:layout_marginTop="120dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Login"
+            android:clickable="true"
+            android:onClick="Login_page"
+            android:textColor="#004080"
+            android:typeface="serif"
+            android:gravity="bottom"
+            android:layout_marginTop="290dp"
+            android:layout_marginBottom="50dp"
+            android:textStyle="bold"
+            android:id="@+id/Login_textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+

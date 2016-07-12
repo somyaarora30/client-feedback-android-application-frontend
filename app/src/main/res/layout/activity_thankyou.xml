@@ -1,0 +1,29 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/thankyou"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for your time and sharing valuable feedback with us."
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:id="@+id/message3"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
